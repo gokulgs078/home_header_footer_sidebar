@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header_footer_navbar</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <h1>Terrific Minds Demo</h1>
+    </header>
+    
+    <div class="container_main">
+        
+        <!-- sidebar -->
+        <nav class="sidebar">
+            <a href="#" class="active" id="home" onclick="showContent('home',event)">Home</a>
+            <a href="#" class="about_us" onclick="showContent('about', event)">About Us</a>
+            <a href="#" class="contact_us" onclick="showContent('contact', event)">Contact Us</a>
+            
+            
+        </nav>
+        
+
+        <!-- Content -->
+        <section class="content" id="content">
+            <h1>Welcome to Home Page</h1>
+            <p>Click on the sidebar links for more information</p>
+            
+        </section>
+    </div>
+    
+    <!-- footer -->
+    <footer class="footer">
+        <p>TM - All Rights Reserved</p>
+    </footer>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

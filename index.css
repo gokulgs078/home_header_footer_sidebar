@@ -1,0 +1,66 @@
+.container_main{
+    display: flex;
+    flex: 1;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    height: 720px;
+}
+
+/* header */
+.header{
+    text-align: center;
+
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: rgb(51, 59, 66);
+    padding-top: 200px;
+    height: 100vh;
+    margin-top: -140px;
+    margin-bottom: 200px;
+}
+
+.sidebar a{
+    color: white;
+    text-decoration:none;
+}
+
+.content{
+    background-color: aquamarine;
+    padding: 20px;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.content h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#home{
+    padding: 20px;
+
+}
+
+.about_us{
+    padding: 20px;
+
+}
+
+.contact_us{
+    padding: 20px;
+
+}
